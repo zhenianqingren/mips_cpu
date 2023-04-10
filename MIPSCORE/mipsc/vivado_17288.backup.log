@@ -1,0 +1,445 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Dec  6 14:13:41 2022
+# Process ID: 17288
+# Current directory: C:/MyApp/MIPSCPU/MIPSCORE/mipsc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12372 C:\MyApp\MIPSCPU\MIPSCORE\mipsc\mipsc.xpr
+# Log file: C:/MyApp/MIPSCPU/MIPSCORE/mipsc/vivado.log
+# Journal file: C:/MyApp/MIPSCPU/MIPSCORE/mipsc\vivado.jou
+# Running On: DESKTOP-P1OF6GJ, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/MyApp/vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/MyApp/vivado/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1235.902 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: CoreMin
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:45]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1813.047 ; gain = 382.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CoreMin' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Core' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFtoID' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFtoID' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REGISTERS' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REGISTERS' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDtoEX' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'IDtoEX' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v:24]
+INFO: [Synth 8-6157] synthesizing module 'EX' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXtoMEM' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'EXtoMEM' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v:24]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:23]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:239]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:265]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:381]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:481]
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMtoWB' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMtoWB' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'LLbit' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LLbit' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HiLo' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'HiLo' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Ctrl' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Ctrl' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DIV' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DIV' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CP0' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'CP0' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Core' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InsRom' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/inst_rom.data' is read successfully [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'InsRom' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DatRam' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/data_ram.data' is read successfully [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'DatRam' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CoreMin' (0#1) [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v:23]
+WARNING: [Synth 8-6014] Unused sequential element temp_op1_reg was removed.  [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:66]
+WARNING: [Synth 8-3848] Net inst_mem[27] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[28] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[29] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[30] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[31] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[32] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[33] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[34] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[35] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[36] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[37] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[38] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[39] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[40] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[41] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[42] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[43] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[44] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[45] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[46] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[47] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[48] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[49] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[50] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[51] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[52] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[53] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[54] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[55] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[56] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[57] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[58] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[59] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[60] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[61] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[62] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[63] in module/entity InsRom does not have driver. [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v:28]
+WARNING: [Synth 8-3917] design CoreMin has port an[3] driven by constant 0
+WARNING: [Synth 8-7129] Port addr[31] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module DatRam is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[31] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module InsRom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[3] in module MEMtoWB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[2] in module MEMtoWB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[1] in module MEMtoWB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[0] in module MEMtoWB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[7] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[6] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[5] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[4] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[3] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[2] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[5] in module EXtoMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[2] in module EXtoMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[1] in module EXtoMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[0] in module EXtoMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[31] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[30] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[29] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[28] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[27] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[26] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[25] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[24] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[23] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[22] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[21] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[20] in module EX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[19] in module EX is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1915.164 ; gain = 485.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1915.164 ; gain = 485.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1915.164 ; gain = 485.082
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 1915.164 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/constrs_1/imports/new/FPGAOL.xdc]
+Finished Parsing XDC File [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/constrs_1/imports/new/FPGAOL.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2008.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 2095.852 ; gain = 665.770
+47 Infos, 140 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 2095.852 ; gain = 859.949
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SIM_CoreMin'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/MyApp/vivado/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SIM_CoreMin' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SIM_CoreMin_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CP0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CoreMin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DatRam
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXtoMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HiLo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDtoEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFtoID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsRom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMtoWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REGISTERS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new/SIM_CoreMin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SIM_CoreMin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SIM_CoreMin_behav xil_defaultlib.SIM_CoreMin xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/MyApp/vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SIM_CoreMin_behav xil_defaultlib.SIM_CoreMin xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:45]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.IFtoID
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.REGISTERS
+Compiling module xil_defaultlib.IDtoEX
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.EXtoMEM
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.MEMtoWB
+Compiling module xil_defaultlib.LLbit
+Compiling module xil_defaultlib.HiLo
+Compiling module xil_defaultlib.Ctrl
+Compiling module xil_defaultlib.DIV
+Compiling module xil_defaultlib.CP0
+Compiling module xil_defaultlib.Core
+Compiling module xil_defaultlib.InsRom
+Compiling module xil_defaultlib.DatRam
+Compiling module xil_defaultlib.CoreMin
+Compiling module xil_defaultlib.SIM_CoreMin
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SIM_CoreMin_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2148.008 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SIM_CoreMin_behav -key {Behavioral:sim_1:Functional:SIM_CoreMin} -tclbatch {SIM_CoreMin.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SIM_CoreMin.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: Too many words specified in data file C:/MyApp/MIPSCPU/MIPSCORE/mipsc/data_ram.data
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SIM_CoreMin_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 2164.727 ; gain = 16.719
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/SIM_CoreMin/CoreMin/ov}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/SIM_CoreMin/CoreMin/Core_}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SIM_CoreMin'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/MyApp/vivado/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SIM_CoreMin' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SIM_CoreMin_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SIM_CoreMin'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SIM_CoreMin_behav xil_defaultlib.SIM_CoreMin xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/MyApp/vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SIM_CoreMin_behav xil_defaultlib.SIM_CoreMin xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v:45]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+WARNING: Too many words specified in data file C:/MyApp/MIPSCPU/MIPSCORE/mipsc/data_ram.data
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2178.543 ; gain = 13.816
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  6 23:29:53 2022...

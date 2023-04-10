@@ -1,0 +1,26 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sim_1/new/core_min_sosp_tb.v,1669008059,verilog,,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,core_min_sosp_tb,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sim_1/new/div_tb.v,1665141782,verilog,,,,div_tb,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/LLbit_reg.v,1666945780,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,LLbit_reg,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core.v,1667029044,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core_min_sosp.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,core,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core_min_sosp.v,1669011323,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,core_min_sosp,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v,1667049230,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,cp0_reg,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v,1668953587,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/data_ram.v,,ctrl,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/data_ram.v,1669007898,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,data_ram,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v,1668953490,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,div,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v,1668953587,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex_mem.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,ex,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex_mem.v,1666938951,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/hilo_reg.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,ex_mem,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/hilo_reg.v,1663504100,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v,,hilo_reg,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v,1668953587,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id_ex.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,id,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id_ex.v,1667056067,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/if_id.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,id_ex,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/if_id.v,1666938954,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,if_id,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v,1669011109,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,inst_rom,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,1667056921,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/LLbit_reg.v,,,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v,1669002544,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem_wb.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,mem,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem_wb.v,1666944665,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/pc_reg.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,mem_wb,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/pc_reg.v,1666938955,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/regfile.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,pc_reg,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,
+C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/regfile.v,1663490252,verilog,,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sim_1/new/core_min_sosp_tb.v,C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v,regfile,,,../../../../MJH_MIPS.srcs/sources_1/new,,,,,

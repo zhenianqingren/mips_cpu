@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/macro.v" --include "../../../../MJH_MIPS.srcs/sources_1/new" \
+"../../../../MJH_MIPS.srcs/sources_1/new/LLbit_reg.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/core.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/core_min_sosp.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/cp0_reg.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/ctrl.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/data_ram.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/div.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/ex.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/ex_mem.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/hilo_reg.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/id.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/id_ex.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/if_id.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/inst_rom.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/mem.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/mem_wb.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/pc_reg.v" \
+"../../../../MJH_MIPS.srcs/sources_1/new/regfile.v" \
+"../../../../MJH_MIPS.srcs/sim_1/new/core_min_sosp_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

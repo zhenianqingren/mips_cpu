@@ -1,0 +1,13 @@
+异常过程：
+1：
+sw 访存
+ov<=1
+2:
+epc<=addr(sw)
+cause<=ov
+new_pc<=except
+3:
+epc<=addr(jr)
+pc<=new_pc
+status<=
+cause<=

@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v" --include "../../../../mipsc.srcs/sources_1/new" \
+"../../../../mipsc.srcs/sources_1/new/CP0.v" \
+"../../../../mipsc.srcs/sources_1/new/Core.v" \
+"../../../../mipsc.srcs/sources_1/new/CoreMin.v" \
+"../../../../mipsc.srcs/sources_1/new/Ctrl.v" \
+"../../../../mipsc.srcs/sources_1/new/DIV.v" \
+"../../../../mipsc.srcs/sources_1/new/DatRam.v" \
+"../../../../mipsc.srcs/sources_1/new/EX.v" \
+"../../../../mipsc.srcs/sources_1/new/EXtoMEM.v" \
+"../../../../mipsc.srcs/sources_1/new/HiLo.v" \
+"../../../../mipsc.srcs/sources_1/new/ID.v" \
+"../../../../mipsc.srcs/sources_1/new/IDtoEX.v" \
+"../../../../mipsc.srcs/sources_1/new/IFtoID.v" \
+"../../../../mipsc.srcs/sources_1/new/InsRom.v" \
+"../../../../mipsc.srcs/sources_1/new/LLbit.v" \
+"../../../../mipsc.srcs/sources_1/new/MEM.v" \
+"../../../../mipsc.srcs/sources_1/new/MEMtoWB.v" \
+"../../../../mipsc.srcs/sources_1/new/PC.v" \
+"../../../../mipsc.srcs/sources_1/new/REGISTERS.v" \
+"../../../../mipsc.srcs/sim_1/new/SIM_CoreMin.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,103 @@
+fpga:
+ori 5 0 72
+ori 8 0 40
+jr 8
+ori 1 0 1
+sw 1 0(0)
+ori 2 0 1
+sw 2 0(0)
+ori 3 0 2
+sw 3 0(0)
+eret
+ori 9 0 65281
+mtc0 9 12
+ori 1 0 1
+sw 1 0(0)
+ori 2 0 1
+sw 2 0(0)
+ori 3 0 2
+sw 3 0(0)
+or 1 0 2
+or 2 0 3
+add 3 1 2
+sw 3 0(0)
+jr 5
+sync
+sync
+sync
+sync
+
+
+
+
+
+
+
+跳转与分支
+mthi 5
+jalr 20
+mtlo 8
+sync
+sync
+movz 8 9 0
+beq 8 9 2
+sync
+sync
+bgezal 12 2
+sync
+sync
+mtlo 16
+sync
+
+访存
+lb 1 3(4)
+lhu 3 3(5)
+lw 5 0(16)
+sh 3 0(6)
+lwl 7 6(7)
+swr 4 9(5)
+sync
+
+原子指令
+sc 2 0(0)
+ll 5 3(4)
+sc 15 0(0)
+sync
+
+协处理器
+mtc0 5 12
+mfc0 6 9
+mfc0 6 9
+sync
+
+load相关
+sh 21 0(14)
+lh 3 0(14)
+add 2 3 4
+sync
+
+自陷异常
+ori 1 0 60
+jr 1
+mthi 6
+mtlo 7
+sync
+sync
+sync
+sync
+ori 1 0 20
+ori 1 0 30
+mfc0 1 14
+addi 1 1 4
+mtc0 1 14
+eret
+sync
+ori 1 0 2
+teq 1 2
+ori 2 0 77
+tne 1 2
+tgeiu 3 -7
+mfhi 2
+sync
+sync
+sync

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 21 15:02:21 2022
+# Process ID: 18260
+# Current directory: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1
+# Command line: vivado.exe -log core_min_sosp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source core_min_sosp.tcl
+# Log file: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1/core_min_sosp.vds
+# Journal file: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1\vivado.jou
+# Running On: DESKTOP-P1OF6GJ, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
+#-----------------------------------------------------------
+source core_min_sosp.tcl -notrace

@@ -1,0 +1,1587 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 3328
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Dec 01 11:47:07 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/MyApp/vivado/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/MyApp/vivado/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	wodechunzhen
+User home directory: C:/Users/过国郭哒
+User working directory: C:/MyApp/MIPSCPU/MJH_MIPS
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/MyApp/vivado/Vivado
+HDI_APPROOT: C:/MyApp/vivado/Vivado/2022.1
+RDI_DATADIR: C:/MyApp/vivado/Vivado/2022.1/data
+RDI_BINDIR: C:/MyApp/vivado/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/过国郭哒/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/过国郭哒/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/过国郭哒/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/MyApp/vivado/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/MyApp/MIPSCPU/MJH_MIPS/vivado.log
+Vivado journal file: 	C:/MyApp/MIPSCPU/MJH_MIPS/vivado.jou
+Engine tmp dir: 	C:/MyApp/MIPSCPU/MJH_MIPS/.Xil/Vivado-3328-DESKTOP-P1OF6GJ
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: C:\MyApp\QuartusII\hld
+XILINX: C:/MyApp/vivado/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/MyApp/vivado/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/MyApp/vivado/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/MyApp/vivado/Vivado/2022.1
+XILINX_VIVADO: C:/MyApp/vivado/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/MyApp/vivado/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,251 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\MyApp\MIPSCPU\MJH_MIPS\MJH_MIPS.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 59 MB. Current time: 12/1/22, 11:47:08 AM CST
+// Tcl Message: open_project C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 116 MB (+119035kb) [00:00:15]
+// [Engine Memory]: 1,251 MB (+1160043kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  4102 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/MyApp/vivado/Vivado/2022.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 1236.094 ; gain = 0.000 
+// Project name: MJH_MIPS; location: C:/MyApp/MIPSCPU/MJH_MIPS; part: xc7a35tcsg324-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 122 MB (+6kb) [00:02:32]
+// Elapsed time: 211 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1184 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ao
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 135 MB (+7824kb) [00:04:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  1714 ms.
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6); // B
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Fonts and Colors]", 10, false); // B
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem_wb0 : mem_wb (mem_wb.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem_wb0 : mem_wb (mem_wb.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1074 ms.
+// [GUI Memory]: 149 MB (+7625kb) [00:04:56]
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 161 MB (+4728kb) [00:04:57]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), cp0_reg0 : cp0_reg (cp0_reg.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), cp0_reg0 : cp0_reg (cp0_reg.v)]", 18, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1068 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem.v", 1); // m
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cp0_reg.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem.v", 1); // m
+// Elapsed time: 342 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+dismissFileChooser();
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ar
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// WARNING: HEventQueue.dispatchEvent() is taking  1065 ms.
+selectCodeEditor("core.v", 67, 245); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, true, false); // D - Popup Trigger
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), if_id0 : if_id (if_id.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), if_id0 : if_id (if_id.v)]", 6, false, false, false, false, true, false); // D - Popup Trigger
+// Elapsed time: 131 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 13 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "mipsc"); // aa
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // s
+setFolderChooser("C:/MyApp/MIPSCPU/MIPSCORE");
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+dismissFileChooser();
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 97 MB. Current time: 12/1/22, 12:17:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 89 MB. Current time: 12/1/22, 12:47:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 86 MB. Current time: 12/1/22, 1:17:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 85 MB. Current time: 12/1/22, 1:47:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 85 MB. Current time: 12/1/22, 2:17:10 PM CST
+// Elapsed time: 8283 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xc7a35tcsg"); // OverlayTextField
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xc7a35tcsg324-1"); // OverlayTextField
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcsg324-1 ; 324 ; 210 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "xc7a35tcsg324-1", 0); // r
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "No"); // JButton
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project mipsc C:/MyApp/MIPSCPU/MIPSCORE/mipsc -part xc7a35tcsg324-1 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1470 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/MyApp/vivado/Vivado/2022.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 8350 seconds
+dismissDialog("Create Project"); // bA
+dismissDialog("New Project"); // f
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// HOptionPane Error: 'Invalid file 'C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/PC.v'. File does not exist. (Invalid File)'
+// Elapsed time: 31 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 25 seconds
+dismissFileChooser();
+// 'g' command handler elapsed time: 63 seconds
+dismissDialog("Add Sources"); // c
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), if_id0 : if_id (if_id.v)]", 6, false, false, false, false, true, false); // D - Popup Trigger
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aj
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, "Unselect Type"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aj
+// Tcl Message: current_project MJH_MIPS 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, xil_defaultlib, LLbit_reg.v]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, xil_defaultlib, LLbit_reg.v]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+selectTreeTable(PAResourceTtoZ.TclObjectTreeTable_TREETABLE, "FILE_TYPE ; Verilog", 2, "Verilog", 1, false); // l
+// Elapsed time: 11 seconds
+editTreeTable(PAResourceTtoZ.TclObjectTreeTable_TREETABLE, "Verilog", 2, "Value", 1); // l
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // i
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "PC"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F
+// Tcl Message: file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new 
+// Elapsed time: 35 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "IFtoID"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // aa
+// Elapsed time: 18 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ID"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 83 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: current_project mipsc 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Modules"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1065 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 6); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false); // D
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project MJH_MIPS 
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a
+dismissDialog("Unable to Open File"); // ag
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a
+dismissDialog("Unable to Open File"); // ag
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, PC.v]", 3, false, false, false, false, true, false); // D - Popup Trigger
+// Tcl Message: current_project mipsc 
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenuItem(PAResourceQtoS.SrcMenu_SET_FILE_TYPE, "Set File Type..."); // ar
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Set Type"); // ad
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, PC.v]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectCodeEditor("ID.v", 214, 203); // be
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "IDtoEX"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "EX"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "EXtoMEM"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MEM"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MEMtoWB"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+// Elapsed time: 26 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "REGISTERS"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "macro"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "LLbit"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "InsRom"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "HiLo"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DIV"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DatRam"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Ctrl"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "CP0"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// Elapsed time: 20 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "CoreMin"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Core"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 226 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v 
+dismissDialog("Add Sources"); // bA
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "EXtoMEM.v", 1); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "DatRam.v", 3); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "DatRam.v", 3); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "CoreMin.v", 4); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "EXtoMEM.v", 1); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "macro.v", 0); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "EXtoMEM.v", 1); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "REGISTERS.v", 2); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "DatRam.v", 3); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "CoreMin.v", 4); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "HiLo.v", 5); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "MEM.v", 6); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "MEMtoWB.v", 7); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Ctrl.v", 8); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "EX.v", 9); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "LLbit.v", 10); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "InsRom.v", 11); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "DIV.v", 12); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "CP0.v", 13); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "IDtoEX.v", 14); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Core.v", 15); // L
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Modules"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, IFtoID.v]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1063 ms.
+dismissDialog("Opening Editor"); // bA
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), if_id0 : if_id (if_id.v)]", 6, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), if_id0 : if_id (if_id.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("if_id.v", 249, 168); // be
+typeControlKey((HResource) null, "if_id.v", 'c'); // be
+selectCodeEditor("IFtoID.v", 43, 12); // be
+typeControlKey((HResource) null, "IFtoID.v", 'v'); // be
+selectCodeEditor("IFtoID.v", 93, 221); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("IFtoID.v", 344, 227); // be
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, IFtoID.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, IFtoID.v]", 3, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+// Elapsed time: 10 seconds
+selectButton(RDIResource.HFilterToolBar_SHOW_ALL, "Show All"); // a
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1056 ms.
+dismissDialog("Opening Editor"); // bA
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, IFtoID.v]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, IFtoID.v]", 3, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, IFtoID.v]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v 
+// Tcl Message: file delete -force C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, PC.v]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v 
+// Tcl Message: file delete -force C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "PC"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "IFtoID"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PC (PC.v)]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PC (PC.v)]", 17, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("if_id.v", 317, 109); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), pc_reg0 : pc_reg (pc_reg.v)]", 5, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("pc_reg.v", 2, 124); // be
+selectCodeEditor("pc_reg.v", 23, 131); // be
+selectCodeEditor("pc_reg.v", 32, 137); // be
+typeControlKey((HResource) null, "pc_reg.v", 'c'); // be
+selectCodeEditor("PC.v", 84, 420); // be
+typeControlKey((HResource) null, "PC.v", 'v'); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("PC.v", 2, 221); // be
+selectCodeEditor("PC.v", 74, 450); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("pc_reg.v", 25, 148); // be
+selectCodeEditor("pc_reg.v", 17, 153); // be
+selectCodeEditor("pc_reg.v", 3, 146); // be
+selectCodeEditor("pc_reg.v", 13, 151); // be
+selectCodeEditor("pc_reg.v", 30, 150); // be
+selectCodeEditor("pc_reg.v", 2, 149); // be
+typeControlKey((HResource) null, "pc_reg.v", 'c'); // be
+selectCodeEditor("PC.v", 92, 441); // be
+typeControlKey((HResource) null, "PC.v", 'v'); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("PC.v", 61, 190); // be
+selectCodeEditor("PC.v", 307, 321); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("PC.v", 331, 165); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("PC.v", 377, 144); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IFtoID (IFtoID.v)]", 12, false); // D
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IFtoID (IFtoID.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1055 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ID.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), id0 : id (id.v)]", 7, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), id0 : id (id.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1072 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 24 seconds
+selectCodeEditor("id.v", 477, 253); // be
+typeControlKey((HResource) null, "id.v", 'c'); // be
+selectCodeEditor("ID.v", 283, 399); // be
+typeControlKey((HResource) null, "ID.v", 'v'); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("ID.v", 74, 469); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 19, false); // D
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 19, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_SET_GLOBAL_INCLUDE, "Set Global Include"); // ar
+// Run Command: PAResourceCommand.PACommandNames_SET_GLOBAL_INCLUDE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_global_include true [get_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 19, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 19, false); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 20, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, macro (macro.v)]", 20, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, macro.v]", 3, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, macro.v]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("macro.v", 451, 219); // be
+typeControlKey((HResource) null, "macro.v", 'c'); // be
+selectCodeEditor("macro.v", 263, 200); // be
+typeControlKey((HResource) null, "macro.v", 'v'); // be
+selectCodeEditor("macro.v", 474, 383); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // k
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("ID.v", 179, 96); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IDtoEX (IDtoEX.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IDtoEX (IDtoEX.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1058 ms.
+// [GUI Memory]: 170 MB (+259kb) [02:53:23]
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 10, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+dismissDialog("Opening Editor"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IDtoEX.v", 1); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), id_ex0 : id_ex (id_ex.v)]", 10, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), id_ex0 : id_ex (id_ex.v)]", 10, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1068 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("id_ex.v", 271, 237); // be
+typeControlKey((HResource) null, "id_ex.v", 'c'); // be
+selectCodeEditor("IDtoEX.v", 164, 189); // be
+typeControlKey((HResource) null, "IDtoEX.v", 'v'); // be
+selectCodeEditor("IDtoEX.v", 93, 427); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ex0 : ex (ex.v)]", 11, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ex0 : ex (ex.v)]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1082 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("ex.v", 201, 166); // be
+typeControlKey((HResource) null, "ex.v", 'c'); // be
+selectCodeEditor("EX.v", 253, 157); // be
+selectCodeEditor("EX.v", 253, 157, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "EX.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectCodeEditor("EX.v", 71, 285); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EXtoMEM (EXtoMEM.v)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EXtoMEM (EXtoMEM.v)]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1067 ms.
+dismissDialog("Opening Editor"); // bA
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ex_mem0 : ex_mem (ex_mem.v)]", 12, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ex_mem0 : ex_mem (ex_mem.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1059 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("ex_mem.v", 333, 192); // be
+typeControlKey((HResource) null, "ex_mem.v", 'c'); // be
+selectCodeEditor("EXtoMEM.v", 283, 229); // be
+typeControlKey((HResource) null, "EXtoMEM.v", 'v'); // be
+selectCodeEditor("EXtoMEM.v", 104, 334); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM (MEM.v)]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM (MEM.v)]", 17, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1056 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 13, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem0 : mem (mem.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("mem.v", 295, 245); // be
+typeControlKey((HResource) null, "mem.v", 'c'); // be
+selectCodeEditor("MEM.v", 307, 334); // be
+typeControlKey((HResource) null, "MEM.v", 'v'); // be
+selectCodeEditor("MEM.v", 79, 34); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMtoWB (MEMtoWB.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMtoWB (MEMtoWB.v)]", 18, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1069 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem_wb0 : mem_wb (mem_wb.v)]", 14, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), mem_wb0 : mem_wb (mem_wb.v)]", 14, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("mem_wb.v", 385, 197); // be
+typeControlKey((HResource) null, "mem_wb.v", 'v'); // be
+selectCodeEditor("mem_wb.v", 453, 195); // be
+typeControlKey(null, null, 'z');
+selectCodeEditor("mem_wb.v", 643, 316); // be
+typeControlKey((HResource) null, "mem_wb.v", 'c'); // be
+selectCodeEditor("MEMtoWB.v", 228, 247); // be
+typeControlKey((HResource) null, "MEMtoWB.v", 'v'); // be
+selectCodeEditor("MEMtoWB.v", 100, 241); // be
+selectCodeEditor("MEMtoWB.v", 105, 243); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REGISTERS (REGISTERS.v)]", 20, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REGISTERS (REGISTERS.v)]", 20, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), regfile1 : regfile (regfile.v)]", 9, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), regfile1 : regfile (regfile.v)]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1063 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("regfile.v", 180, 203); // be
+typeControlKey((HResource) null, "regfile.v", 'c'); // be
+selectCodeEditor("REGISTERS.v", 233, 303); // be
+typeControlKey((HResource) null, "REGISTERS.v", 'v'); // be
+selectCodeEditor("REGISTERS.v", 109, 430); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LLbit (LLbit.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LLbit (LLbit.v)]", 16, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1059 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), LLbit_reg0 : LLbit_reg (LLbit_reg.v)]", 15, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), LLbit_reg0 : LLbit_reg (LLbit_reg.v)]", 15, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("LLbit_reg.v", 420, 261); // be
+typeControlKey((HResource) null, "LLbit_reg.v", 'c'); // be
+selectCodeEditor("LLbit.v", 280, 157); // be
+typeControlKey((HResource) null, "LLbit.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectCodeEditor("LLbit.v", 128, 310); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, InsRom (InsRom.v)]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, InsRom (InsRom.v)]", 15, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1056 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), inst_rom0 : inst_rom (inst_rom.v)]", 20, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), inst_rom0 : inst_rom (inst_rom.v)]", 20, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("inst_rom.v", 405, 217); // be
+typeControlKey((HResource) null, "inst_rom.v", 'c'); // be
+selectCodeEditor("InsRom.v", 343, 143); // be
+typeControlKey((HResource) null, "InsRom.v", 'v'); // be
+selectCodeEditor("InsRom.v", 118, 357); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DatRam (DatRam.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DatRam (DatRam.v)]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), data_ram0 : data_ram (data_ram.v)]", 21, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), data_ram0 : data_ram (data_ram.v)]", 21, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("data_ram.v", 403, 167); // be
+typeControlKey((HResource) null, "data_ram.v", 'c'); // be
+selectCodeEditor("DatRam.v", 274, 308); // be
+typeControlKey((HResource) null, "DatRam.v", 'v'); // be
+selectCodeEditor("DatRam.v", 118, 217); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// [GUI Memory]: 179 MB (+430kb) [02:57:42]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ctrl0 : ctrl (ctrl.v)]", 17, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), ctrl0 : ctrl (ctrl.v)]", 17, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1063 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("ctrl.v", 343, 211); // be
+typeControlKey((HResource) null, "ctrl.v", 'c'); // be
+selectCodeEditor("Ctrl.v", 264, 104); // be
+typeControlKey((HResource) null, "Ctrl.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectCodeEditor("Ctrl.v", 62, 173); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 4, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), cp0_reg0 : cp0_reg (cp0_reg.v)]", 19, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), cp0_reg0 : cp0_reg (cp0_reg.v)]", 19, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("cp0_reg.v", 289, 233); // be
+typeControlKey((HResource) null, "cp0_reg.v", 'c'); // be
+selectCodeEditor("CP0.v", 251, 219); // be
+typeControlKey((HResource) null, "CP0.v", 'v'); // be
+selectCodeEditor("CP0.v", 111, 357); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DIV (DIV.v)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DIV (DIV.v)]", 8, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1075 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), div0 : div (div.v)]", 18, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), div0 : div (div.v)]", 18, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("div.v", 305, 171); // be
+typeControlKey((HResource) null, "div.v", 'c'); // be
+selectCodeEditor("DIV.v", 388, 226); // be
+typeControlKey((HResource) null, "DIV.v", 'v'); // be
+selectCodeEditor("DIV.v", 82, 307); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ID (ID.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1068 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CP0 (CP0.v)]", 4, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ctrl (Ctrl.v)]", 7, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DIV (DIV.v)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DIV (DIV.v)]", 8, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DatRam (DatRam.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DatRam (DatRam.v)]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 10, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1063 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HiLo (HiLo.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EXtoMEM (EXtoMEM.v)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EXtoMEM (EXtoMEM.v)]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HiLo (HiLo.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HiLo (HiLo.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), hilo_reg0 : hilo_reg (hilo_reg.v)]", 16, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v), hilo_reg0 : hilo_reg (hilo_reg.v)]", 16, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1068 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("hilo_reg.v", 276, 243); // be
+typeControlKey((HResource) null, "hilo_reg.v", 'c'); // be
+selectCodeEditor("HiLo.v", 283, 373); // be
+typeControlKey((HResource) null, "HiLo.v", 'v'); // be
+selectCodeEditor("HiLo.v", 120, 240); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IDtoEX (IDtoEX.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IDtoEX (IDtoEX.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1072 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IFtoID (IFtoID.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IFtoID (IFtoID.v)]", 14, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1055 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, InsRom (InsRom.v)]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, InsRom (InsRom.v)]", 15, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LLbit (LLbit.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LLbit (LLbit.v)]", 16, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1058 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM (MEM.v)]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEM (MEM.v)]", 17, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1076 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMtoWB (MEMtoWB.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MEMtoWB (MEMtoWB.v)]", 18, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PC (PC.v)]", 19, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PC (PC.v)]", 19, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1065 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REGISTERS (REGISTERS.v)]", 20, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, REGISTERS (REGISTERS.v)]", 20, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1076 ms.
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 191 MB (+3865kb) [02:59:49]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 4, true); // D - Node
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v), core0 : core (core.v)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1067 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("core.v", 370, 246); // be
+typeControlKey((HResource) null, "core.v", 'c'); // be
+selectCodeEditor("CoreMin.v", 268, 310); // be
+selectCodeEditor("CoreMin.v", 217, 391); // be
+typeControlKey((HResource) null, "CoreMin.v", 'v'); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 125 MB. Current time: 12/1/22, 2:47:10 PM CST
+selectCodeEditor("CoreMin.v", 591, 107); // be
+typeControlKey(null, null, 'z');
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Core (Core.v)]", 5, false); // D
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Core (Core.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("Core.v", 245, 207); // be
+typeControlKey((HResource) null, "Core.v", 'v'); // be
+selectCodeEditor("Core.v", 65, 282); // be
+selectCodeEditor("Core.v", 80, 198); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Core.v", 125, 166); // be
+selectCodeEditor("Core.v", 72, 266); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Core.v", 99, 53); // be
+selectCodeEditor("Core.v", 50, 335); // be
+selectCodeEditor("Core.v", 86, 172); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("Core.v", 74, 176); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Core.v", 48, 151); // be
+selectCodeEditor("Core.v", 78, 172); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("Core.v", 54, 173); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Core.v", 78, 287); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Core.v", 191, 128); // be
+selectCodeEditor("Core.v", 108, 127); // be
+selectCodeEditor("Core.v", 96, 196); // be
+// Elapsed time: 114 seconds
+selectCodeEditor("Core.v", 37, 108); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Core.v", 54, 193); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Core.v", 86, 99); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Core.v", 444, 203); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 4, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 12 seconds
+selectCodeEditor("core.v", 313, 248); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 4, true); // D - Node
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, core_min_sosp (core_min_sosp.v)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("core_min_sosp.v", 336, 316); // be
+typeControlKey((HResource) null, "core_min_sosp.v", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 17); // m
+selectCodeEditor("Core.v", 380, 227); // be
+typeControlKey((HResource) null, "Core.v", 'v'); // be
+selectCodeEditor("Core.v", 160, 37); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Core.v", 131, 257); // be
+// Elapsed time: 21 seconds
+selectCodeEditor("Core.v", 39, 222); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Core.v", 99, 103); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Core.v", 99, 240); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("Core.v", 102, 222); // be
+selectCodeEditor("Core.v", 135, 102); // be
+selectCodeEditor("Core.v", 133, 247); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+// Elapsed time: 12 seconds
+selectCodeEditor("Core.v", 492, 308); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (CoreMin.v)]", 24); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (CoreMin.v)]", 24); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (Core.v)]", 25, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (Core.v)]", 25, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "REGISTERS.v", 0); // m
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// Elapsed time: 16 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "SIM_CoreMin"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F
+// Tcl Message: file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new/SIM_CoreMin.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new/SIM_CoreMin.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v)]", 11, true); // D - Node
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v)]", 11, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("core_min_sosp_tb.v", 326, 255); // be
+typeControlKey((HResource) null, "core_min_sosp_tb.v", 'c'); // be
+selectCodeEditor("REGISTERS.v", 300, 288); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 40, false); // D
+// Tcl Message: current_project mipsc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 40, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1059 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("SIM_CoreMin.v", 248, 210); // be
+typeControlKey((HResource) null, "SIM_CoreMin.v", 'v'); // be
+selectButton(RDIResource.HInputHandler_REFORMAT_CODE, (String) null); // D
+selectCodeEditor("SIM_CoreMin.v", 182, 173); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("SIM_CoreMin.v", 115, 358); // be
+selectCodeEditor("SIM_CoreMin.v", 117, 356); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 24); // D
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 25); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v), InsRom (InsRom.v)]", 26, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v), InsRom (InsRom.v)]", 26, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1068 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 25, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 25, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (Core.v)]", 27, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CoreMin (Core.v)]", 27, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 25); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 25); // D
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 24); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CP0 (CP0.v)]", 25, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CP0 (CP0.v)]", 25, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (Core.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (Core.v)]", 4, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 28 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1064 ms.
+dismissDialog("Opening Editor"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 3); // m
+selectCodeEditor("Core.v", 114, 331); // be
+selectCodeEditor("Core.v", 392, 317); // be
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v)]", 11); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v)]", 11); // D
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v), core_min_sosp0 : core_min_sosp (core_min_sosp.v)]", 12); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v), core_min_sosp0 : core_min_sosp (core_min_sosp.v), core0 : core (core.v)]", 13, true); // D - Node
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, core_min_sosp_tb (core_min_sosp_tb.v), core_min_sosp0 : core_min_sosp (core_min_sosp.v), core0 : core (core.v), ex_mem0 : ex_mem (ex_mem.v)]", 20, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("core.v", 333, 216); // be
+typeControlKey((HResource) null, "core.v", 'c'); // be
+selectCodeEditor("Core.v", 326, 241); // be
+typeControlKey((HResource) null, "Core.v", 'v'); // be
+selectCodeEditor("Core.v", 90, 264); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Core.v", 59, 290); // be
+selectCodeEditor("Core.v", 64, 129); // be
+selectCodeEditor("Core.v", 94, 220); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Core.v", 107, 150); // be
+selectCodeEditor("Core.v", 158, 156); // be
+selectCodeEditor("Core.v", 182, 123); // be
+selectCodeEditor("Core.v", 157, 151); // be
+selectCodeEditor("Core.v", 79, 313); // be
+// Elapsed time: 21 seconds
+selectCodeEditor("Core.v", 53, 473); // be
+// Elapsed time: 18 seconds
+selectCodeEditor("Core.v", 79, 264); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Core.v", 48, 317); // be
+selectCodeEditor("Core.v", 69, 340); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Core.v", 88, 202); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Core.v", 48, 152); // be
+selectCodeEditor("Core.v", 70, 220); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Core.v", 77, 225); // be
+selectCodeEditor("Core.v", 165, 187); // be
+selectCodeEditor("Core.v", 64, 382); // be
+selectCodeEditor("Core.v", 751, 186); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CoreMin.v", 5); // m
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "core_min_sosp.v", 16); // m
+selectCodeEditor("core_min_sosp.v", 437, 248); // be
+typeControlKey((HResource) null, "core_min_sosp.v", 'c'); // be
+selectCodeEditor("CoreMin.v", 421, 320); // be
+typeControlKey((HResource) null, "CoreMin.v", 'v'); // be
+selectCodeEditor("CoreMin.v", 244, 159); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("CoreMin.v", 160, 103); // be
+selectCodeEditor("CoreMin.v", 62, 127); // be
+selectCodeEditor("CoreMin.v", 95, 152); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("CoreMin.v", 96, 243); // be
+selectCodeEditor("CoreMin.v", 34, 237); // be
+selectCodeEditor("CoreMin.v", 100, 244); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 4); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 4); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 9); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v)]", 10, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v), CoreMin : CoreMin (CoreMin.v), DatRam_ : DatRam (DatRam.v)]", 13, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 10 seconds
+selectCodeEditor("CoreMin.v", 132, 108); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+// Elapsed time: 14 seconds
+setFileChooser("C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/constrs_1/imports/new/FPGAOL.xdc");
+selectCheckBox(PAResourceAtoD.ConstraintsChooserPanel_COPY_CONSTRAINTS_FILES_INTO_PROJECT, "Copy constraints files into project", true); // g: TRUE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 31 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/constrs_1/imports/new/FPGAOL.xdc 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset constrs_1 C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/constrs_1/imports/new/FPGAOL.xdc 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, FPGAOL.xdc]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, FPGAOL.xdc]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1071 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, fpgaol2.xdc]", 8, false); // D
+// Tcl Message: current_project MJH_MIPS 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, fpgaol2.xdc]", 8, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1055 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("fpgaol2.xdc", 670, 220); // be
+typeControlKey((HResource) null, "fpgaol2.xdc", 'c'); // be
+selectCodeEditor("FPGAOL.xdc", 577, 222); // be
+typeControlKey((HResource) null, "FPGAOL.xdc", 'v'); // be
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project mipsc 
+selectCodeEditor("FPGAOL.xdc", 698, 108); // be
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CP0.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InsRom.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SIM_CoreMin.v", 1); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, FPGAOL.xdc]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, FPGAOL.xdc]", 9, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1050 ms.
+dismissDialog("Opening Editor"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CoreMin.v", 5); // m
+// Elapsed time: 277 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), InsRom_ : InsRom (InsRom.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), InsRom_ : InsRom (InsRom.v)]", 5, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 115 seconds
+selectCodeEditor("InsRom.v", 367, 379); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("InsRom.v", 402, 378); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("InsRom.v", 202, 378); // be
+typeControlKey((HResource) null, "InsRom.v", 'c'); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), DatRam_ : DatRam (DatRam.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), DatRam_ : DatRam (DatRam.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("DatRam.v", 199, 359); // be
+typeControlKey((HResource) null, "DatRam.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), PC_ : PC (PC.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), PC_ : PC (PC.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("PC.v", 95, 278); // be
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 2); // D
+selectCodeEditor("PC.v", 275, 305); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), IFtoID_ : IFtoID (IFtoID.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), IFtoID_ : IFtoID (IFtoID.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1063 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), ID_ : ID (ID.v)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), ID_ : ID (ID.v)]", 8, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1073 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("ID.v", 62, 265); // be
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // k
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Text Changed"); // k
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 29, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM_CoreMin (SIM_CoreMin.v)]", 29, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Thu Dec  1 15:13:53 2022] Launched synth_1... Run output will be captured here: C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v)]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), IFtoID_ : IFtoID (IFtoID.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CoreMin (CoreMin.v), Core_ : Core (Core.v), IFtoID_ : IFtoID (IFtoID.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+dismissDialog("Opening Editor"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 2); // m
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'clk' does not exist for instance 'IFtoID_' of module 'IFtoID' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v:206]. ]", 1); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'clk' does not exist for instance 'IFtoID_' of module 'IFtoID' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v:206]. ]", 1); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IFtoID.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IFtoID.v", 3); // m
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'ID' [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v:23]. ]", 2); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Core.v", 2); // m
+// Elapsed time: 35 seconds
+selectCodeEditor("Core.v", 180, 130); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("Core.v", 153, 205); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IFtoID.v", 3); // m
+// Elapsed time: 11 seconds
+closeMainWindow("mipsc - [C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.xpr] - Vivado 2022.1"); // bb
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Close Project"); // A
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 126 MB. Current time: 12/1/22, 3:17:06 PM CST
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2022.1 (64-bit)
+# SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Current time: Thu Dec 01 15:17:12 CST 2022
+# Process ID (PID): 3328
+# OS: Windows 10
+# User: wodechunzhen
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.k.c.X (See C:/MyApp/MIPSCPU/MJH_MIPS/vivado_pid3328.debug)
+*/
+// 'b' command handler elapsed time: 8 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  7090 ms.
+// Tcl Message: close_project 

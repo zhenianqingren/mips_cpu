@@ -1,0 +1,113 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Wed Dec  7 16:17:23 2022
+| Host         : DESKTOP-P1OF6GJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CoreMin_control_sets_placed.rpt
+| Design       : CoreMin
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    35 |
+|    Minimum number of control sets                        |    35 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    85 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    35 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    23 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              70 |           36 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             742 |          318 |
+| Yes          | No                    | No                     |             105 |           37 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             446 |          175 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+--------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|              Clock Signal              |                   Enable Signal                  |              Set/Reset Signal             | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------+--------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|  Core_/Ctrl_/flush_reg/G0              |                                                  |                                           |                1 |              1 |         1.00 |
+|  clk_w_BUFG                            |                                                  |                                           |                1 |              1 |         1.00 |
+|  Core_/MEMtoWB_/wb_cp0_reg_we_reg_1[0] |                                                  | rst_w_reg_n_3                             |                1 |              1 |         1.00 |
+|  Core_/IDtoEX_/rst_w_reg_2[0]          |                                                  |                                           |                1 |              4 |         4.00 |
+|  clk_r                                 | Core_/EXtoMEM_/p_0_in                            |                                           |                1 |              4 |         4.00 |
+|  clk_w_BUFG                            | Core_/MEMtoWB_/wb_cp0_reg_we_reg_3               | rst_w_reg_n_3                             |                2 |              4 |         2.00 |
+|  clk_w_BUFG                            | Core_/EXtoMEM_/rst_w_reg_2                       | rst_w_reg_n_3                             |                2 |              4 |         2.00 |
+|  clk_w_BUFG                            | Core_/IDtoEX_/rst_w_reg_0                        |                                           |                3 |              6 |         2.00 |
+|  clk_w_BUFG                            | Core_/EXtoMEM_/p_1_in[3]                         |                                           |                2 |              8 |         4.00 |
+|  clk_w_BUFG                            | Core_/EXtoMEM_/p_1_in[2]                         |                                           |                2 |              8 |         4.00 |
+|  clk_w_BUFG                            | Core_/EXtoMEM_/p_1_in[0]                         |                                           |                2 |              8 |         4.00 |
+|  clk_w_BUFG                            | Core_/EXtoMEM_/p_1_in[1]                         |                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                         |                                                  | cnt_r[0]_i_1_n_3                          |                6 |             22 |         3.67 |
+|  clk_w_BUFG                            | Core_/MEMtoWB_/wb_cp0_reg_write_addr_reg[4]_0[0] | rst_w_reg_n_3                             |               12 |             31 |         2.58 |
+|  clk_w_BUFG                            | Core_/IDtoEX_/rst_w_reg_4[0]                     |                                           |               15 |             31 |         2.07 |
+|  clk_w_BUFG                            | Core_/MEMtoWB_/wb_cp0_reg_we_reg_2[0]            | rst_w_reg_n_3                             |               17 |             32 |         1.88 |
+|  clk_w_BUFG                            | Core_/IDtoEX_/rst_w_reg_0                        | Core_/IDtoEX_/FSM_sequential_state_reg[1] |               13 |             32 |         2.46 |
+|  clk_w_BUFG                            | Core_/IDtoEX_/ready_o_reg_2[0]                   |                                           |                8 |             32 |         4.00 |
+|  clk_w_BUFG                            | Core_/Ctrl_/E[0]                                 | Core_/PC_/p_0_in                          |               13 |             32 |         2.46 |
+|  clk_w_BUFG                            | Core_/DIV_/remainder[63]_i_1_n_3                 |                                           |               10 |             32 |         3.20 |
+|  n_0_109_BUFG                          |                                                  | rst_w_reg_n_3                             |               14 |             32 |         2.29 |
+|  n_1_2542_BUFG                         |                                                  | rst_w_reg_n_3                             |               10 |             32 |         3.20 |
+|  n_2_2127_BUFG                         |                                                  | rst_w_reg_n_3                             |               13 |             32 |         2.46 |
+| ~Core_/IDtoEX_/ex_wd_reg[3]_1_BUFG     |                                                  | rst_w_reg_n_3                             |               17 |             32 |         1.88 |
+|  clk_w_BUFG                            |                                                  | rst_w_reg_n_3                             |               13 |             37 |         2.85 |
+|  clk_w_BUFG                            | Core_/DIV_/E[0]                                  | Core_/Ctrl_/SR[0]                         |               19 |             53 |         2.79 |
+|  clk_IBUF_BUFG                         |                                                  | an_OBUF[0]                                |               15 |             53 |         3.53 |
+|  clk_w_BUFG                            | Core_/MEMtoWB_/E[0]                              | rst_w_reg_n_3                             |               31 |             64 |         2.06 |
+|  EX_/hilo_temp1__0                     |                                                  |                                           |               33 |             64 |         1.94 |
+|  clk_w_BUFG                            | Core_/DIV_/result_o[63]_i_1_n_3                  | rst_w_reg_n_3                             |               22 |             65 |         2.95 |
+|                                        |                                                  | rst_w_reg_n_3                             |               36 |             67 |         1.86 |
+|  clk_w_BUFG                            | Core_/MEMtoWB_/rst_w_reg                         |                                           |               11 |             88 |         8.00 |
+|  clk_w_BUFG                            | Core_/DIV_/E[0]                                  | Core_/DIV_/SR[0]                          |               44 |            129 |         2.93 |
+|  clk_w_BUFG                            |                                                  | Core_/Ctrl_/SR[0]                         |               91 |            209 |         2.30 |
+|  clk_w_BUFG                            |                                                  | Core_/EX_/rst_w_reg_48                    |              102 |            225 |         2.21 |
++----------------------------------------+--------------------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Dec  1 11:46:46 2022
+# Process ID: 3328
+# Current directory: C:/MyApp/MIPSCPU/MJH_MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8456 C:\MyApp\MIPSCPU\MJH_MIPS\MJH_MIPS.xpr
+# Log file: C:/MyApp/MIPSCPU/MJH_MIPS/vivado.log
+# Journal file: C:/MyApp/MIPSCPU/MJH_MIPS\vivado.jou
+# Running On: DESKTOP-P1OF6GJ, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
+#-----------------------------------------------------------
+start_gui
+opopen_project C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.xpupdate_compile_order -fileset sources_1
+create_project mipsc C:/MyApp/MIPSCPU/MIPSCORE/mipsc -part xc7a35tcsg324-1
+current_project MJH_MIPS
+file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new
+current_project mipsc
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/ID.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v
+update_compile_order -fileset sources_1
+current_project MJH_MIPS
+current_project mipsc
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EXtoMEM.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/REGISTERS.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DatRam.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CoreMin.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/HiLo.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEM.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/MEMtoWB.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Ctrl.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/EX.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/LLbit.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/InsRom.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/DIV.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/CP0.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IDtoEX.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/Core.v
+update_compile_order -fileset sources_1
+current_project MJH_MIPS
+current_project mipsc
+export_ip_user_files -of_objects  [get_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v] -no_script -reset -force -quiet
+remove_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v
+file delete -force C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v
+export_ip_user_files -of_objects  [get_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v] -no_script -reset -force -quiet
+remove_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v
+file delete -force C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/PC.v
+update_compile_order -fileset sources_1
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v w ]
+add_files C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/IFtoID.v
+update_compile_order -fileset sources_1
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+set_property is_global_include true [get_files  C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sources_1/new/macro.v]
+update_compile_order -fileset sources_1
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+current_project MJH_MIPS
+current_project mipsc
+update_compile_order -fileset sources_1
+current_project MJH_MIPS
+current_project mipsc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new/SIM_CoreMin.v w ]
+add_files -fileset sim_1 C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.srcs/sim_1/new/SIM_CoreMin.v
+update_compile_order -fileset sim_1
+current_project MJH_MIPS
+current_project mipsc
+update_compile_order -fileset sim_1
+current_project MJH_MIPS
+current_project mipsc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/constrs_1/imports/new/FPGAOL.xdc
+import_files -fileset constrs_1 C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/constrs_1/imports/new/FPGAOL.xdc
+current_project MJH_MIPS
+current_project mipsc
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_project

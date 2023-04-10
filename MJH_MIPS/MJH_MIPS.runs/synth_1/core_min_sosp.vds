@@ -1,0 +1,599 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 21 15:02:21 2022
+# Process ID: 18260
+# Current directory: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1
+# Command line: vivado.exe -log core_min_sosp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source core_min_sosp.tcl
+# Log file: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1/core_min_sosp.vds
+# Journal file: C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1\vivado.jou
+# Running On: DESKTOP-P1OF6GJ, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
+#-----------------------------------------------------------
+source core_min_sosp.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/utils_1/imports/synth_1/core_min_sosp.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/utils_1/imports/synth_1/core_min_sosp.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top core_min_sosp -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5056
+WARNING: [Synth 8-1849] concatenation with unsized literal; will interpret as 32 bits [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v:45]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1284.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'core_min_sosp' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core_min_sosp.v:23]
+INFO: [Synth 8-6157] synthesizing module 'core' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pc_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/pc_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pc_reg' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/pc_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'if_id' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/if_id.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'if_id' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/if_id.v:23]
+INFO: [Synth 8-6157] synthesizing module 'id' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'id' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'id_ex' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id_ex.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'id_ex' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id_ex.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ex' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ex' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ex_mem' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex_mem.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ex_mem' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex_mem.v:24]
+INFO: [Synth 8-6157] synthesizing module 'mem' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:23]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:239]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:265]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:381]
+INFO: [Synth 8-226] default block is never used [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:481]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mem_wb' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem_wb.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mem_wb' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem_wb.v:23]
+INFO: [Synth 8-6157] synthesizing module 'LLbit_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/LLbit_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LLbit_reg' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/LLbit_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hilo_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/hilo_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hilo_reg' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/hilo_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ctrl' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'div' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'div' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cp0_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'cp0_reg' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'core' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inst_rom' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/MyApp/MIPSCPU/MJH_MIPS/inst_rom.data' is read successfully [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'inst_rom' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_ram' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/data_ram.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/MyApp/MIPSCPU/MJH_MIPS/data_ram.data' is read successfully [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/data_ram.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'data_ram' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/data_ram.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'core_min_sosp' (0#1) [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/core_min_sosp.v:23]
+WARNING: [Synth 8-6014] Unused sequential element temp_op1_reg was removed.  [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/div.v:66]
+WARNING: [Synth 8-3848] Net inst_mem[27] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[28] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[29] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[30] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[31] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[32] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[33] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[34] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[35] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[36] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[37] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[38] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[39] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[40] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[41] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[42] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[43] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[44] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[45] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[46] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[47] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[48] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[49] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[50] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[51] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[52] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[53] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[54] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[55] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[56] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[57] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[58] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[59] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[60] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[61] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[62] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3848] Net inst_mem[63] in module/entity inst_rom does not have driver. [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/inst_rom.v:28]
+WARNING: [Synth 8-3917] design core_min_sosp has port an[3] driven by constant 0
+WARNING: [Synth 8-7129] Port addr[31] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module data_ram is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[31] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module inst_rom is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[3] in module mem_wb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[2] in module mem_wb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[1] in module mem_wb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[0] in module mem_wb is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[31] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[30] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[29] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[28] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[27] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[26] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[25] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[24] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[23] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[22] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[21] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[20] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[19] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[18] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[17] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[16] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[15] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[14] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[13] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[7] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[6] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[5] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[4] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[3] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[2] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[1] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port excepttype_i[0] in module mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[5] in module ex_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[2] in module ex_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[1] in module ex_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port stall[0] in module ex_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[31] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[30] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[29] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[28] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[27] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[26] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[25] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[24] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[23] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[22] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[21] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[20] in module ex is either unconnected or has no load
+WARNING: [Synth 8-7129] Port link_address_i[19] in module ex is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1284.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1284.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1284.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1284.125 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/MyApp/MIPSCPU/fpgaol2.xdc]
+Finished Parsing XDC File [C:/MyApp/MIPSCPU/fpgaol2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/MyApp/MIPSCPU/fpgaol2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/core_min_sosp_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/core_min_sosp_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1308.141 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1308.141 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'div'
+WARNING: [Synth 8-327] inferring latch for variable 'reg1_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v:996]
+WARNING: [Synth 8-327] inferring latch for variable 'reg2_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/id.v:1023]
+WARNING: [Synth 8-327] inferring latch for variable 'hilo_temp1_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:302]
+WARNING: [Synth 8-327] inferring latch for variable 'hilo_temp_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:291]
+WARNING: [Synth 8-327] inferring latch for variable 'cnt_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:292]
+WARNING: [Synth 8-327] inferring latch for variable 'stallreq_for_madd_msub_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:293]
+WARNING: [Synth 8-327] inferring latch for variable 'cp0_reg_read_addr_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ex.v:356]
+WARNING: [Synth 8-327] inferring latch for variable 'cp0_cause_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/mem.v:133]
+WARNING: [Synth 8-327] inferring latch for variable 'new_pc_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'flush_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/ctrl.v:46]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'div'
+WARNING: [Synth 8-327] inferring latch for variable 'data_o_reg' [C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.srcs/sources_1/new/cp0_reg.v:178]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 4     
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 12    
+	   2 Input    6 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 31    
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---RAMs : 
+	               2K Bit	(64 X 32 bit)          RAMs := 1     
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 16    
+	   3 Input   64 Bit        Muxes := 2     
+	   4 Input   64 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 96    
+	   8 Input   32 Bit        Muxes := 3     
+	  24 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 4     
+	   5 Input   32 Bit        Muxes := 2     
+	   7 Input   32 Bit        Muxes := 2     
+	   6 Input   32 Bit        Muxes := 3     
+	   7 Input   24 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 8     
+	   6 Input    8 Bit        Muxes := 1     
+	  24 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 2     
+	  28 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 15    
+	   4 Input    5 Bit        Muxes := 2     
+	   6 Input    5 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 5     
+	   4 Input    4 Bit        Muxes := 1     
+	  28 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	   6 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 2     
+	  24 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 1     
+	  26 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 4     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 80    
+	  28 Input    1 Bit        Muxes := 3     
+	   6 Input    1 Bit        Muxes := 7     
+	  24 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 11    
+	  27 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP hilo_temp, operation Mode is: A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: Generating DSP hilo_temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+DSP Report: operator hilo_temp is absorbed into DSP hilo_temp.
+WARNING: [Synth 8-3917] design core_min_sosp has port an[3] driven by constant 0
+WARNING: [Synth 8-3917] design core_min_sosp has port an[2] driven by constant 0
+INFO: [Synth 8-6851] RAM (data_ram0/data_mem_reg) has partial Byte Wide Write Enable pattern, however no output register found in fanout of RAM. Recommended to use supported Byte Wide Write Enable template. 
+WARNING: [Synth 8-3332] Sequential element (cnt_o_reg[1]) is unused and will be removed from module ex.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[31]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[30]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[29]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[28]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[27]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[26]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[25]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[24]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[23]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[22]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[21]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[20]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[19]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[18]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[17]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[16]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[10]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[7]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[6]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[5]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[4]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[3]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[2]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[1]) is unused and will be removed from module mem.
+WARNING: [Synth 8-3332] Sequential element (cp0_cause_reg[0]) is unused and will be removed from module mem.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------+------------------------+-----------+----------------------+----------------+
+|Module Name    | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++---------------+------------------------+-----------+----------------------+----------------+
+|core0/regfile1 | regs_reg               | Implied   | 32 x 32              | RAM32M x 12    | 
+|core_min_sosp  | data_ram0/data_mem_reg | Implied   | 64 x 32              | RAM64X1S x 32  | 
++---------------+------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ex          | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1308.141 ; gain = 24.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++---------------+------------------------+-----------+----------------------+----------------+
+|Module Name    | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++---------------+------------------------+-----------+----------------------+----------------+
+|core0/regfile1 | regs_reg               | Implied   | 32 x 32              | RAM32M x 12    | 
+|core_min_sosp  | data_ram0/data_mem_reg | Implied   | 64 x 32              | RAM64X1S x 32  | 
++---------------+------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1402.594 ; gain = 118.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ex          | A*B          | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | PCIN>>17+A*B | 15     | 15     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ex          | PCIN>>17+A*B | 17     | 15     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     6|
+|2     |CARRY4   |   202|
+|3     |DSP48E1  |     4|
+|4     |LUT1     |   207|
+|5     |LUT2     |   514|
+|6     |LUT3     |   186|
+|7     |LUT4     |   551|
+|8     |LUT5     |   441|
+|9     |LUT6     |  1061|
+|10    |RAM32M   |    10|
+|11    |RAM32X1D |     4|
+|12    |RAM64X1S |    32|
+|13    |FDRE     |  1100|
+|14    |FDSE     |     2|
+|15    |LD       |    68|
+|16    |LDC      |   196|
+|17    |LDCP     |     1|
+|18    |IBUF     |     3|
+|19    |OBUF     |    28|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 142 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:56 . Memory (MB): peak = 1415.996 ; gain = 107.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1415.996 ; gain = 131.871
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1429.043 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 517 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 33 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1432.887 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 311 instances were transformed.
+  LD => LDCE: 68 instances
+  LDC => LDCE: 164 instances
+  LDC => LDCE (inverted pins: G): 32 instances
+  LDCP => LDCP (inverted pins: G) (GND, LDCE, LUT3(x2), VCC): 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+Synth Design complete, checksum: 1a0b672a
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 180 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:03 ; elapsed = 00:01:04 . Memory (MB): peak = 1432.887 ; gain = 148.762
+INFO: [Common 17-1381] The checkpoint 'C:/MyApp/MIPSCPU/MJH_MIPS/MJH_MIPS.runs/synth_1/core_min_sosp.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file core_min_sosp_utilization_synth.rpt -pb core_min_sosp_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 21 15:03:32 2022...

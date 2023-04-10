@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Dec  6 14:13:41 2022
+# Process ID: 17288
+# Current directory: C:/MyApp/MIPSCPU/MIPSCORE/mipsc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12372 C:\MyApp\MIPSCPU\MIPSCORE\mipsc\mipsc.xpr
+# Log file: C:/MyApp/MIPSCPU/MIPSCORE/mipsc/vivado.log
+# Journal file: C:/MyApp/MIPSCPU/MIPSCORE/mipsc\vivado.jou
+# Running On: DESKTOP-P1OF6GJ, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/MyApp/MIPSCPU/MIPSCORE/mipsc/mipsc.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source SIM_CoreMin.tcl
+current_wave_config {Untitled 1}
+add_wave {{/SIM_CoreMin/CoreMin/ov}} 
+current_wave_config {Untitled 1}
+add_wave {{/SIM_CoreMin/CoreMin/Core_}} 
+relaunch_sim
+close_sim
